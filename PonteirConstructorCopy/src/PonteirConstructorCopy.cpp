@@ -31,6 +31,6 @@ int main() {
 	Node node1("Henrique", 26);
 	Node node2("Henry", 30);
 	Nzinha node3(node2);
-	cout << "!!!Hello World!!! - " << x <<endl; // prints !!!Hello World!!!
+	cout << "!!!Hello World!!! - " << node3.nome<<endl; // prints !!!Hello World!!!
 	return 0;
 }
