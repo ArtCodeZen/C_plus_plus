@@ -32,5 +32,14 @@ int main() {
 	Node node2("Henry", 30);
 	Nzinha node3(node2);
 	cout << "!!!Hello World!!! - " << node3.nome<<endl; // prints !!!Hello World!!!
+
+
+	char *myText = "Ola";
+	char *myText2 = myText;
+	int *x;
+	int y = 100;
+	x = &y;
+	cout << *x << endl;
+
 	return 0;
 }
