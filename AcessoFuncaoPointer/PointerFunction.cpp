@@ -2,7 +2,8 @@
 using namespace std;
 
 
-
+// Funções normais para acesso 
+// É passado o endereço das funções para o ponteiro na main
 int somar(int x, int y){
     return x + y;
 }
@@ -13,6 +14,8 @@ void imprime(void){
     cout << "imprimindo!" << endl;
 }
 
+// Funções com sobrecarga de método
+// Alterações apenas nos parâmetros
 
 int executar(int x, int y, int(*func)(int, int)){
     cout << "executou somar normal" << endl;
